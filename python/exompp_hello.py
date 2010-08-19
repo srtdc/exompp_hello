@@ -43,7 +43,7 @@ def main():
   datasources = {'hello_world':''}
 
   ## read connection and data source values from config file    
-  connection, datasource = getconfiguration(connection, datasources) 
+  connection, datasources = getconfiguration(connection, datasources) 
 
   exompp = Exompp(connection)
   ## try to connect to Exosite
